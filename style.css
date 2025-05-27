@@ -1,0 +1,49 @@
+header{
+    color: white;
+    background-color: green;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+nav {
+      display: flexbox;
+      justify-content: center;
+      background-color: #7ba37b;
+      padding: 1em 0
+}
+
+
+section{
+    color: black;
+    font-family: sans-serif;
+}
+
+#home_page p{
+    background-color: green;
+}
+
+p{
+    background-color: #d9e2b2;
+    font-family: sans-serif;
+}
+
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: white;
+    color:rgb(0, 0, 0)
+}

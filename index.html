@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OM Dietetics</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #2e4f2e, #f5f5dc);
+      color: #333;
+    }
+
+    header {
+      background-color: #2e4f2e;
+      color: white;
+      padding: 1em 0;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #3d6b3d;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1em;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background-color: #274327;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 2em;
+      background-color: #e8e4d8;
+    }
+
+    .hero img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    .section {
+      padding: 2em;
+      background-color: #fdfaf1;
+      border-top: 3px solid #2e4f2e;
+    }
+
+    .section h2 {
+      color: #2e4f2e;
+    }
+
+    .services-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .services-list li {
+      background-color: #d9d5b5;
+      margin: 0.5em 0;
+      padding: 0.75em;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #2e4f2e;
+      color: white;
+      padding: 1.5em;
+      text-align: center;
+    }
+
+    .donate-button {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 0.8em 1.5em;
+      background-color: #c1a875;
+      color: #2e4f2e;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .donate-button:hover {
+      background-color: #b89b63;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>OM Dietetics</h1>
+    <p>Your Journey to Better Health Starts Here</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact Us</a>
+    <a href="#location">Find Us</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <h2>Welcome to OM Dietetics</h2>
+    <p>Led by a certified and registered dietitian, OM Dietetics offers personalized nutrition plans, health coaching, and lifestyle guidance to help you reach your wellness goals.</p>
+    <img src="images/scale.jpg" alt="Nutrition Banner">
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>At OM Dietetics, we are passionate about providing evidence-based nutritional care. Our registered dietitian works with clients across all ages and health conditions to achieve optimal wellness.</p>
+    <h3>Our Services</h3>
+    <ul class="services-list">
+      <li>Personalized Nutrition Counseling</li>
+      <li>Weight Management Programs</li>
+      <li>Medical Nutrition Therapy</li>
+      <li>Meal Planning & Guidance</li>
+      <li>Group Workshops and Webinars</li>
+    </ul>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:omdietetics@gmail.com">omdietetics@gmail.com</a></p>
+    <p>Phone: 0762643090</p>
+  </section>
+
+  <section class="section" id="location">
+    <h2>Find Us</h2>
+    <p>26154 Keketso Street<br>
+    Kwa Thema, Springs 1575<br>
+    South Africa</p>
+    <p><strong>Hours:</strong> Mon–Fri: 9am – 5pm</p>
+  </section>
+
+  <footer>
+    <p>Thank you for supporting OM Dietetics</p>
+    <a href="https://www.paypal.com/donate" class="donate-button" target="_blank">Make a Donation</a>
+    <p>&copy; 2025 OM Dietetics. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
