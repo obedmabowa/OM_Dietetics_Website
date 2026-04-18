@@ -43,4 +43,4 @@ Author
 Obed Segwate Mabowa
 Data Scientist
 
-I was trying out yo build a simple web application.
+I was trying out to build a simple web application.
